@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+
+        h1:hover{
+            color: skyblue;
+            background-color: seagreen;
+    
+            font-weight: 700;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: red;
+        }
+        li:first-child {
+            color: yellowgreen;
+        }
+        li:last-child{
+            color: aqua;
+        }
+        li:nth-child(2n){
+            color: crimson;
+        }
+        li:nth-child(2n+1){
+            background-color: darkgray;
+        }
+        h3::before{
+            content: 'Hello - ';
+        }
+        h3::after{
+            content: ' hello.';
+            background-color: blue;
+            font-size: 39px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <a href="https://github.com/tanvir122/pseudo-box">google e jao</a>
+    <a href="https://www.w3schools.com/html/html_blocks.asp">Go to hero</a>
+    <a href="https://moz.com/top500">new site</a>
+    <br>
+    
+    <h3>middle sign header 1</h3>
+    <h3>middle sign header 2</h3>
+    <h3>middle sign header 3</h3>
+    <h3>middle sign header 4</h3>
+    <h3>middle sign header 5</h3>
+    <h3>middle sign header 6</h3>
+    <br>
+
+    <ul>
+        <li>alia</li>
+        <li>dalia</li>
+        <li>safia</li>
+        <li>sadia</li>
+        <li>kadina</li>
+        <li>amina</li>
+    </ul>
+
+
+</body>
+</html>
